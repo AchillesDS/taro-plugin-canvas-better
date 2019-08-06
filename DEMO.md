@@ -139,9 +139,9 @@ export default class Simple extends Component {
       canvasStatus: true,
       config: config,
     })
-    Taro.showLoading({
-      title: '绘制中...'
-    })
+    // Taro.showLoading({
+    //   title: '绘制中...'
+    // })
   }
 
   // 绘制成功回调函数 （必须实现）=> 接收绘制结果、重置 TaroCanvasDrawer 状态
